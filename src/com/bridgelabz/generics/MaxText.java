@@ -19,9 +19,9 @@ public class MaxText<T extends Comparable<T>> {
 
     public static void main(String[] args) {
 
-        MaxText<String> test1 = new MaxText<>("Peach","Apple","Banana");
-        MaxText<String> test2 = new MaxText<>("Apple","Peach","Banana");
-        MaxText<String> test3 = new MaxText<>("Apple","Banana","Peach");
+        MaxText test1 = new MaxText<>("Peach","Apple","Banana");
+        MaxText test2 = new MaxText<>(2,3,1);
+        MaxText test3 = new MaxText<>(1.7,5.0,7.0);
 
         System.out.println("Result of TC 1: " + test1.maximum());
         System.out.println("Result of TC 2: " + test2.maximum());
